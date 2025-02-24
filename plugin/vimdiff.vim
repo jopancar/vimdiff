@@ -21,4 +21,4 @@ function! DiffToNewFile(file1, file2, outputFile)
 endfunction
 
 " Command to call the function
-command! -nargs=3 DiffToFile call DiffToNewFile(<f-args>)
+command! -nargs=+ DiffToFile call DiffToNewFile(<f-args>)
