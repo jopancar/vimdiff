@@ -1,2 +1,2 @@
 # vimdiff
-pluggin for vim editor
+plugin for vim editor
