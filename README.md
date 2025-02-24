@@ -1,10 +1,9 @@
-# vimdiff
-Plugin for vim editor
+# Vim Plugin: Diff Extractor  
 
-It makes only differences in 2 files to put in 3rd
+## 📌 Overview  
+This Vim plugin extracts only the differences between two files and saves them into a third file.  
+
+## ⚡ Usage  
+Run the following command in Vim:  
+```vim
 :DiffToFile file1 file2 outputFile
-
-example:
-:DiffToFile one.txt two.txt output.txt 
-
-output.txt is newly created
