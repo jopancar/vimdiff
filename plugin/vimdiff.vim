@@ -1,5 +1,5 @@
 " Vim Plugin: Diff Extractor
-" Author: Your Name
+" Author: Jurica Opancar
 " Description: Extracts the difference between two files and saves it to a third file
 
 function! DiffToNewFile(file1, file2, outputFile)
